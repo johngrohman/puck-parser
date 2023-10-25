@@ -1,0 +1,5 @@
+FUNCTION foo ( WHILE )
+  x := END. ;
+  PRINT ( RETURN ) ;
+IF
+

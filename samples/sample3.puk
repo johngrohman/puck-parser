@@ -1,0 +1,12 @@
+FUNCTION fibo ( n )
+  x := 1 ;
+  y := 2 ;
+  c := 3 ;
+  WHILE c < n DO 
+    x := x + y ;
+    y := x - y ;
+    c := c + 1 
+  ENDW
+  RETURN ( x )
+END.
+

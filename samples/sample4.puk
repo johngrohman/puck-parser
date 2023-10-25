@@ -1,0 +1,13 @@
+FUNCTION gcd ( a , b ) 
+  WHILE a > b DO 
+      a := a MOD b
+  ELSIF a < b DO
+      b := b MOD a 
+  ENDW
+  RETURN ( a )
+END.
+
+PROCEDURE 
+hello ( )
+  PRINT ( "Hello" & "World!" ) END.
+
